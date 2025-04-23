@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div class="para">
+    <div class="box-child">
+      <h1>Log In page</h1>
+
+      <div class="user-name">
+        <input type="text" class="username-input" placeholder="user-name or Number">
+      </div>
+
+      <div class="password">
+        <input type="password" class="password-input" placeholder="Password">
+      </div>
+
+      <div class="btn">
+        <button class="btn">Sign-in</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+
+
+
+
+  <script>
+
+    let usernameInput = document.querySelector('.username-input');
+    let passwordInput = document.querySelector('.password-input');
+
+    let btn = document.querySelector('.btn');
+
+    btn.onmouseover = function ( ) {
+      if (usernameInput.value === '' || passwordInput.value === '') {
+            btn.style.position = 'absolute';
+            btn.style.left = Math.random() * 70 + '%';
+            btn.style.top = Math.random() * 70 + '%';
+      }
+       else {
+            btn.style.position = 'static'; 
+      }
+    }
+  </script>
+
+
+
+</body>
+</html>

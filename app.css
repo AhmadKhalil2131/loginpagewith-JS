@@ -1,0 +1,48 @@
+
+
+.para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: brown;
+    /* align-content: center; */
+}
+.box-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 450px;
+    height: 250px;
+    border: 1px solid;
+    /* padding: 10px; */
+    gap: 15px;
+    background-color: aquamarine;
+    border-radius: 6px;
+    border-style: none;
+
+}
+.user-name input{
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: antiquewhite;
+    border-style: none;
+}
+.password input{
+    border-style: none;
+
+    background-color: antiquewhite;
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+}
+.btn button{
+    background: blue;
+    color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 4px;
+}
